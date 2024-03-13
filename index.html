@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locks Smith</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        header {
+            background-color: #FFFF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s ease;
+        }
+
+        section {
+            padding: 50px;
+            margin-top: 60px;
+            /* Adjust margin to accommodate the fixed header */
+        }
+
+        /* Add a shadow to the header on scroll */
+        header.scrolled {
+            background-color: #ffff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-container {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+
+        .map-container iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        .card {
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 20px rgba(0, 123, 255, 0.8), 0 0 30px rgba(0, 123, 255, 0.8);
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #333;
+            /* Adjust color as needed */
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #666;
+            /* Adjust color as needed */
+            line-height: 1.4;
+        }
+
+        /* Custom styles */
+        .blue-header a {
+            color: white;
+            text-decoration: underline;
+            text-decoration-color: white;
+        }
+
+        .blue-header {
+            background-color: #346cdb;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Blue Header -->
+    <div class="blue-header container-fluid">
+        <h1>Locksmith in New York</h1>
+    </div>
+
+    <!-- Body Content -->
+    <div class="container mt-4 p-20">
+        <h2>Upgrading to High-Security Deadbolts: A Step-by-Step Guide</h2>
+        <p>Enhancing the security of your doors is crucial for the safety of your home or business. If you're considering an upgrade to high-security deadbolts, follow this step-by-step guide to ensure a secure and effective installation:</p>
+    
+        <p><strong>1. Assess Your Door:</strong> Begin by assessing the type of door you have. High-security deadbolts are most effective on solid-core or metal doors. Ensure that your door is compatible with the deadbolt you plan to install.</p>
+    
+        <p><strong>2. Choose a High-Security Deadbolt:</strong> Research and select a high-security deadbolt that meets your specific needs. Look for features such as hardened steel construction, anti-drill plates, and pick-resistant mechanisms. Brands like (Brand Name) are known for their reliable high-security options.</p>
+    
+        <h2>3. Gather Necessary Tools:</h2>
+        <p>Before starting the installation, gather the necessary tools, including a drill, screwdriver, measuring tape, and a hole saw. Having all the tools on hand ensures a smooth and efficient installation process.</p>
+    
+        <p><strong>4. Measure and Mark:</strong> Carefully measure and mark the placement of the deadbolt on your door. Follow the manufacturer's instructions for precise measurements to ensure proper alignment and functionality.</p>
+    
+        <h2>5. Drill the Holes:</h2>
+        <p>Using the appropriate drill bits, drill the holes for the deadbolt. This typically includes a hole for the cylinder on the exterior side and another hole for the bolt on the interior side. Follow the measurements and guidelines provided by the deadbolt manufacturer.</p>
+    
+        <p><strong>6. Install the Deadbolt:</strong> Insert the deadbolt through the holes, securing it in place with the provided screws. Ensure that the bolt extends and retracts smoothly when turning the key. Tighten all screws securely to enhance the deadbolt's stability.</p>
+    
+        <h2>7. Test the Operation:</h2>
+        <p>Test the deadbolt's operation by turning the key and ensuring that the bolt extends fully into the door frame. Check for smooth locking and unlocking movements. Make any necessary adjustments to ensure optimal performance.</p>
+    
+        <p><strong>8. Repeat for Additional Doors:</strong> If upgrading multiple doors, repeat the process for each one. Consistent high-security deadbolts across all entry points enhance the overall security of your property.</p>
+    
+        <p>By following these step-by-step instructions, you can successfully upgrade to high-security deadbolts on your doors. If you encounter any difficulties or prefer professional assistance, consider reaching out to <a href="https://www.locksmith-nyc.com/">Emergency Locksmith New York</a> for expert guidance and installation services.</p>
+    
+    </div>
+
+    <!-- NAP Information -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Contact No</h5>
+                        <p class="card-text">(646) 781-7070</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text"> info@locksmith-nyc.com</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Address</h5>
+                        <p class="card-text">
+                            109 W 39th St,
+                            Unit Concourse 1 New York, NY 10018</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Map  -->
+    <!--Google map-->
+    <div class="container mt-5">
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12089.570874707517!2d-73.996322!3d40.7533864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259820d53dc4b%3A0xfa53c461e2d8f485!2sTop%20Notch%20Locksmith%20%26%20Security!5e0!3m2!1sen!2s!4v1710349621168!5m2!1sen!2s"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!--Google Maps-->
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        // Add a class to the header when scrolling
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 0);
+        });
+    </script>
+</body>
+
+</html>
